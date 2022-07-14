@@ -5,7 +5,7 @@ import {ToastContainer} from 'react-toastify';
 // Importamos nuestro contexto 
 import { AuthProvider } from './context';
 
-     {/* Envolvemos nuestra app con el contexto AuthProvider  */}
+{/* Envolvemos nuestra app con el contexto AuthProvider  */}
 export default function App() {
   return ( 
     <AuthProvider>
